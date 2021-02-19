@@ -136,4 +136,6 @@ You can find some really good reading materials about best practices of develpme
 
 [This blog post](https://blog.rowanudell.com/getting-started-with-aws-sam-cli-and-golang/) from [@elrowan](https://twitter.com/elrowan) gives amazing intro and simple theory into whole aws -> lambda -> sam local development setup, definitely worth reading.
 
+## Contact me
 
+If you would like to contact me about this project or anything else feel free to reach me out: [https://veddy.me/](https://veddy.me/)
