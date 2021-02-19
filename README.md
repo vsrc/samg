@@ -14,7 +14,12 @@ To install it, run:
 
 Command will download and compile the source code, then put it in the `bin` folder inside your `GOPATH`.
 
-// templates folder required
+### Requirement
+
+In order to properly work this tool requires templates. You can download `templates` folder from from this repo and edit them if needed. These files are generated with aws sam cli sample command `sam init` and contain simple demo functionality. 
+
+As you are developing your api, you might start using your own set libraries / packages / code snippets in most of your functions and it makes sense to add them to the template code so it gets copied into every new function you generate afterwards.
+
 
 ## How to use
 
