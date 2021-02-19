@@ -92,7 +92,7 @@ For example command:
 will create new folder on the path `v1/user/register/` and put two template files (`go.mod` and `main.go`) inside, ready to be used.
 
 
-### To test locally
+## How to test locally
 
 Use aws sam cli as usual, navigate to the function directory and run:
 
@@ -106,7 +106,7 @@ Use aws sam cli as usual, navigate to the function directory and run:
 ```
 
 
-### To deploy
+### How to deploy
 
 Use aws sam cli as usual, navigate to the folder where `template.yaml` is either for function or for stack and run:
 
@@ -115,3 +115,19 @@ Use aws sam cli as usual, navigate to the folder where `template.yaml` is either
 ```
 
 This command will guide you through first time configuration setup and if you choose to save configuration, for every subsequent run of this command you can omit `--guided` flag.
+
+
+## Additional resoucres
+
+You can find some really good reading materials about best practices of develpment with aws, sam and lambda on the documentation pages of the AWS. Some of them are:
+
+- [Your first steps with SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html)
+- [Template anatomy - What to write in the template.yaml file](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html)
+- [Best practices for organizing larger serverless applications,](https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/) one of the first concerns for using AWS lambda for development api is that as your api grows, configuration file becames too big to manage, this article explains best practices how to scale your code and keep it managable
+- [Announcing nested applications for AWS SAM and the AWS Serverless Application Repository] https://aws.amazon.com/blogs/compute/announcing-nested-applications-for-aws-sam-and-the-aws-serverless-application-repository/
+- [Using nested applications](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-template-nested-applications.html)
+
+[This blog post](https://blog.rowanudell.com/getting-started-with-aws-sam-cli-and-golang/) from [@elrowan](https://twitter.com/elrowan) gives amazing intro and simple theory into whole aws -> lambda -> sam local development setup, definitely worth reading.
+
+
+
