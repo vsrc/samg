@@ -2,7 +2,14 @@
 
 AWS SAM boilerplate generator command line utility
 
-// description
+Motivation behind creating this tool is to help automate repetitive steps a developer has to do when creating api with AWS lambda. In addition to already existing amazing aws sam cli tools, for each new function and stack, developer needs to:
+
+1. Create new folder/s
+2. Copy paste template code
+3. Copy paste any commonly used code snippets
+4. Add configuration for the new function / stack in `template.yaml`
+
+This tool does all of that for you with one command. Two if you need to create a stack.
 
 ## How to install
 
