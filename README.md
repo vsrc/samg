@@ -82,7 +82,7 @@ will create new folder on the path `v1/user/register/` and put two template file
 
 ### To test locally
 
-Use aws sam cli as usual:
+Use aws sam cli as usual, navigate to the function directory and run:
 
 
 ```sh
@@ -93,3 +93,13 @@ Use aws sam cli as usual:
   sam local start-api # Start local api
 ```
 
+
+### To deploy
+
+Use aws sam cli as usual, navigate to the folder where `template.yaml` is either for function or for stack and run:
+
+```sh
+  sam deploy --guided --capabilities CAPABILITY_IAM CAPABILITY_AUTO_EXPAND
+```
+
+This command will guide you through first time configuration setup and if you choose to save configuration, for every subsequent run of this command you can omit `--guided` flag.
