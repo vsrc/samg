@@ -116,6 +116,13 @@ Use aws sam cli as usual, navigate to the folder where `template.yaml` is either
 
 This command will guide you through first time configuration setup and if you choose to save configuration, for every subsequent run of this command you can omit `--guided` flag.
 
+## TODO Whishlist
+
+These are the things I would like to improve this project with. If you want to suggest any other feel free to file an issue or contact me. If you want to improve this code feel free to submit a PR, I will gladly take a look.
+
+- [ ] Switch to go 1.16 and embed default templates into binary itself 
+- [ ] TESTS!!! 😬😬😬😬😬😬😬😬😬😬😬 (not a single test written yet)
+
 
 ## Additional resoucres
 
@@ -128,6 +135,5 @@ You can find some really good reading materials about best practices of develpme
 - [Using nested applications](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-template-nested-applications.html)
 
 [This blog post](https://blog.rowanudell.com/getting-started-with-aws-sam-cli-and-golang/) from [@elrowan](https://twitter.com/elrowan) gives amazing intro and simple theory into whole aws -> lambda -> sam local development setup, definitely worth reading.
-
 
 
